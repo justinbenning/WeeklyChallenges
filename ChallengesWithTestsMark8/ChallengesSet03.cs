@@ -25,8 +25,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
-            int sum = numbers.Sum();
-            if (sum % 2 != 0)
+            if (numbers.Sum() % 2 != 0)
             {
                 return true;
             }
